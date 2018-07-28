@@ -1,0 +1,53 @@
+***
+
+datatypes.c and .h
+
+they define
+- prediction
+- *array_predictions
+- row_percentage
+- * table_percentages.
+
+
+***
+
+extract_data.c
+
+Funciones para coger el archivo datos/data.txt y crear una tabla con:
+Statement, credence, percentage, t/f/u.
+Ignores comments
+
+***
+
+analyze_data.c
+
+Coge esa tabla y crea otra con
+n%, times it happened, ignoring undecided.
+
+Coge la tabla anterior y agrega en
+1%
+2%
+5%
+10%
+...
+90%
+95%
+98%
+99%
+
+Da una puntuación, según regla logarítmica, multiplicada por 5/log(2)
+
+***
+
+print_data.c
+
+***
+
+change_data.c
+
+Permite añadir statements and credences and comments.
+I'll change data_now.txt's name to data_old.txt, create another file named data_now.txt, and copy the contents of the old one + the new extras. 
+
+***
+
+main.c
