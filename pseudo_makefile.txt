@@ -1,0 +1,4 @@
+# I can't bother to make a real makefile, so here is the compiling command
+gcc -g main.c datatypes.c datatypes.h extract_data.c extract_data.h analyze_data.c analyze_data.h print_data.c print_data.h constants.h -o main -lm
+
+
