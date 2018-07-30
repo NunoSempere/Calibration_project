@@ -1,3 +1,5 @@
+Giving a probability of 90% to 10 things and having 9 of them happen seems like a Superpower. Though I'm not there yet, I've been collecting predictions and written about the topic.
+
 [Predictor Explainer](https://nunosempere.github.io/calibration/prediction_explainer.pdf)
 
 [Predictions and Prediction Markets at Gwern.net](http://www.gwern.net/Prediction-markets)
