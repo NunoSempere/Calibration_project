@@ -11,7 +11,7 @@
 
 
 prediction *parse_prediction(char *str);
-table_predictions * parse_data(char * file_name);
+table_predictions * parse_data(FILE *f);
 
 
 #endif

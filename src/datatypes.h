@@ -9,11 +9,21 @@
 	We could write 10 functions like extract_prediction_statement, but we don't want to.
 */
 
+typedef struct _date{
+	int year;
+	int month;
+	int day;
+
+}date;
+
+
 typedef struct _prediction {
 
 	char *statement;
 	int state; // -1 = Unmodified_state; 0=False; 1=True; 2= Undecided.
 	int credence; // From 1 to 99.
+	date fecha; // fecha is date in Spanish.
+	//char *comments;
 } prediction;
 
 /* 
