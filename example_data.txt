@@ -12,6 +12,7 @@ I am able to press 50 pushups; 2; F; 6/7/2018; also made a bet with Vlad Firoiu.
 // U: Undecided.
 // ;
 // date, in format day/month/year.
+// ;
 // some additional comments.
 
 // The ';' are important, because they tell when one part ends and another begins
