@@ -36,7 +36,7 @@ typedef struct _table_predictions {
 	int size;
 	int num;
 	prediction* table;
-	float score; 
+	float score;
 	/* 
 	
 	My proper scoring rule is going to be defined as the sum of log(p/0.5)*5/log(2), 
@@ -46,6 +46,8 @@ typedef struct _table_predictions {
 	or simply as a (positive) factor -log(0.5)*5/log(2) which allows the score to be positive.	
 
 	*/
+	float brier_score;
+
 } table_predictions;
 
 typedef struct _row_percentage {

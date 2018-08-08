@@ -4,6 +4,7 @@ datatypes.c and .h
 
 they define
 - prediction
+- date
 - *array_predictions
 - row_percentage
 - * table_percentages.
@@ -13,7 +14,7 @@ they define
 
 extract_data.c
 
-Funciones para coger el archivo datos/data.txt y crear una tabla con:
+Function to grab data from a .txt file and create a table structure with:
 Statement, credence, percentage, t/f/u.
 Ignores comments
 
@@ -21,10 +22,13 @@ Ignores comments
 
 analyze_data.c
 
-Coge esa tabla y crea otra con
+It takes the table with predicions from extract_data and creates one with:
 n%, times it happened, ignoring undecided.
 
-Coge la tabla anterior y agrega en
+It gives two scores, one modified log score and a Brier score.
+	Note: The logarithmic score keeps growing. Normalize it in terms of ESPR's Prediction Market winner?
+
+To be implemented: Aggregate % into:
 1%
 2%
 5%
@@ -35,18 +39,19 @@ Coge la tabla anterior y agrega en
 98%
 99%
 
-Da una puntuación, según regla logarítmica, multiplicada por 5/log(2)
-
 ***
 
 print_data.c
 
+prints data.
+
 ***
 
-change_data.c
+manipulate_data.c
 
-Permite añadir statements and credences and comments.
-I'll change data_now.txt's name to data_old.txt, create another file named data_now.txt, and copy the contents of the old one + the new extras. 
+To be implemented:
+Allow statements and credences and comments to be added.
+Grab bets from undecided.txt to be resolved.
 
 ***
 
