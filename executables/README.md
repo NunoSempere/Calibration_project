@@ -3,7 +3,7 @@
 Hey Q, oh great first user!  
 You shouldn't in general download random execultables from the internet.  
 You can instead have a look at the source files at calibration/src and compile them yourself  
-At any point, there are three files in this folder:  
+At any point, there are three executable files in this folder:  
 - calibration: for Linux users  
 - calibration-windows-32-bit.exe: for Windows users with 32 bit (old) processors.  
 - calibration-windows-64-bit.exe: for Windows users with 64 bit (newer) processors. You probably want this.  
