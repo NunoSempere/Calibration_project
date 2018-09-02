@@ -1,0 +1,30 @@
+I am able to press 50 pushups; 2; F; 6/7/2018; also made a bet with Vlad Firoiu.
+
+// The format of a prediction is:
+
+// Statement of the prediction. It can be longish, but not too long: if you want to change this go to constants.h -> MAX_STATEMENT.
+// ;
+// credence, in my example it was 2%, so I wrote 2.
+// ;
+// The state of a prediction, which can be:
+// T: true, the thing came to pass.
+// F: false, the thing did not come to pass
+// U: Undecided.
+// ;
+// date, in format day/month/year.
+// ;
+// some additional comments.
+
+// The ';' are important, because they tell the program when one part ends and another begins
+
+// Lines which start with a "//" are comments. This is a comment
+
+// This is another comment. Note that I can leave empty lines as long as they don't cut up predictions.
+
+// This is another prediction:
+
+An AGI will be created in 2019; 1; U; 1/7/2019; also made bet with Jaime Sevilla.
+
+// I actually think the probability is <<1%, but at the moment, my program discriminates only between percentages.
+// That is, you can only write predictions from 1% to 99%, which take integer values.
+// Note that the prediction is undecided, so it's ignored until it's resolved.
