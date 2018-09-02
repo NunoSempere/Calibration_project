@@ -15,7 +15,7 @@ I am able to press 50 pushups; 2; F; 6/7/2018; also made a bet with Vlad Firoiu.
 // ;
 // some additional comments.
 
-// The ';' are important, because they tell when one part ends and another begins
+// The ';' are important, because they tell the program when one part ends and another begins
 
 // Lines which start with a "//" are comments. This is a comment
 
@@ -25,6 +25,6 @@ I am able to press 50 pushups; 2; F; 6/7/2018; also made a bet with Vlad Firoiu.
 
 An AGI will be created in 2019; 1; U; 1/7/2019; also made bet with Jaime Sevilla.
 
-// I actually thing the probability is <<1%, but at the moment, my program discriminates only between percentages.
+// I actually think the probability is <<1%, but at the moment, my program discriminates only between percentages.
 // That is, you can only write predictions from 1% to 99%, which take integer values.
-// Note that the prediction is undecided, so the date written is when the prediction is resolved.
+// Note that the prediction is undecided, so it's ignored until it's resolved.
