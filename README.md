@@ -10,6 +10,11 @@ I started writting this program because I was unaware of alternatives, like Pred
 
 ## Worked example.
 
+### Downloading the program
+- calibration: for Linux users
+- calibration-windows-32-bit.exe: for Windows users with 32 bit (old) processors.
+- calibration-windows-64-bit.exe: for Windows users with 64 bit (newer) processors. You probably want this.
+
 ### Data file.
 
 You keep your predictions in a .txt or .md file. I call mine data.txt. The predictions are stored in the following format:
@@ -43,6 +48,8 @@ If your data file is in a subfolder, you'd write "subfolder/name.txt" (without a
 It then asks you whether you want to aggregate your data, that is, whether you want to interpret '60% to X' as '40% to not X' . 
 
 Afterwards, it prints your Brier score and with a custom logarithmic score particularly meaningful for me because of it's relation to prediction markets.
+
+
 
 ## Functionalities I want to add in the future and breaks in compatibilty:
 
