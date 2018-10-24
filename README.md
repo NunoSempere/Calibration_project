@@ -55,5 +55,6 @@ Because the program is in its early stages, I will not hesitate to break compati
 
 ## I am grateful to
 
-ESR for a document on how to make documentation: http://esr.ibiblio.org/?p=8175  
 ESPR and CFAR, and in particularly Mihaly for kindling my interest in probability.  
+Q for being my first user.
+ESR for a document on how to make documentation: http://esr.ibiblio.org/?p=8175  
