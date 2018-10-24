@@ -40,7 +40,9 @@ The file with your data should be stored in the same folder as your program. Whe
 
 If your data file is in a subfolder, you'd write "subfolder/name.txt" (without apostrophes).
 
-It then asks you whether you want to aggregate your data, that is, whether you want to interpret '60% to X' as '40% to not X' . Afterwards, it provides you with your Brier score and with a custom logarithmic score particularly meaningful for me because of it's relation to prediction markets.
+It then asks you whether you want to aggregate your data, that is, whether you want to interpret '60% to X' as '40% to not X' . 
+
+Afterwards, it prints your Brier score and with a custom logarithmic score particularly meaningful for me because of it's relation to prediction markets.
 
 ## Functionalities I want to add in the future and breaks in compatibilty:
 
