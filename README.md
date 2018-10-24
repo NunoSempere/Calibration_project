@@ -1,9 +1,12 @@
 # Calibration How-to.
 
+Ideally, the program should be so self-explanatory that the only thing you need to know is the prediction format:
+> I am able to press 50 pushups; 2; F; 6/7/2018; also made a bet with Vlad Firoiu.
+
 ## Introduction.
 This document is a guide to keeping track and scoring predictions with my a .txt file and with my calibration program, and thus get me closer to a position in which 10 out of every 100 times I give something a probablity of 10%, it happens. 
 
-I started writting this program because I was unaware of alternatives, like PredictionBook.com, and kept going because I liked a) being able to modify my program and b) being able to keep my predictions private. As of yet, there are some kinks to be smoothed out, though the barrier to entry should be no longer than 5-10 mins.
+I started writting this program because I was unaware of alternatives, like PredictionBook.com, and kept going because I liked a) being able to modify my program and b) being able to keep my predictions private. As of yet, there are some kinks to be smoothed out, though the barrier to entry should be no longer than 5-10 mins. 
 
 ## Worked example.
 
@@ -47,3 +50,8 @@ Because the program is in its early stages, I will not hesitate to break compati
 - Give more granularity.
 - Allow editing the database from the program, and then save it.
 - Make the date optional / see evolution with time.
+
+## I am grateful to
+
+ESR for a document on how to make documentation: http://esr.ibiblio.org/?p=8175  
+ESPR and CFAR, and in particularly Mihaly for kindling my interest in probability.  
