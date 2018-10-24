@@ -43,7 +43,7 @@ It then asks you whether you want to aggregate your data, that is, whether you w
 
 Because the program is in its early stages, I will not hesitate to break compatibility. If you want to request something, shoot me an email at name of this webpage + LH at gmail.com.
 
-- Update Undecideds when the time comes.
+- Update undecided statements when the time comes.
 - Give more granularity.
 - Allow editing the database from the program, and then save it.
 - Make the date optional / see evolution with time.
